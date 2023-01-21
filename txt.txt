@@ -1,0 +1,9 @@
+pip install poetry
+poetry init
+poetry install
+poetry add django
+django-admin startproject amazing_hunting .     создание приложения
+./manage.py runserver                           запуск сервера
+./manage.py startapp vacancies                  создаем новый app
+./manage.py makemigrations                      создание миграций
+./manage.py migrate                             накатить миграции
